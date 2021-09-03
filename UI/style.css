@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  background-image: url("./Images/bg.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 0.8rem;
+}
+
+.logo-img {
+  border-radius: 50%;
+}
+
+.pop {
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  backdrop-filter: blur(0.8rem);
+  display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.NP {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 20px;
+  font-size: 14px;
+}
+
+.NP:hover {
+  border-bottom: 1px solid #6f37d8;
+}
+
+.PH {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  font-size: 14px;
+}
+
+.PH:hover {
+  border-bottom: 1px solid #a852f8;
+}
+
+::placeholder {
+  color: #a852f8;
+}
+
+.form button {
+  border: none;
+  outline: none;
+  height: 2rem;
+  width: 10rem;
+  background: #a852f8;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 1rem;
+}
+
+.form button:hover {
+  cursor: pointer;
+  background: #c0bbc5;
+  color: rgb(0, 0, 0);
+}
+
+.drag-area {
+  height: 200px;
+  border: 3px dashed #a852f8;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.header,
+.supp {
+  display: inline-block;
+}
+
+h3 {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.drag-area .icon {
+  color: #a852f8;
+}
+
+.drag-area .supp {
+  font-size: 12px;
+  color: rgb(59, 59, 59);
+}
+
+.drag-area .btn {
+  color: #a852f8;
+  cursor: pointer;
+}
+
+.form {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.image-upload {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-view img {
+  max-width: 160px;
+  max-height: 160px;
+}
+
+header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid #fff;
+  padding: 0px 20px 0px 20px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header style="background-color: whitesmoke;">
+        <div class="logo1">
+            <img src="./Images/Bajaj_Finserv_Logo.png" style="width:90px;height:30px;"></img>
+        </div>
+        <div class="logo2">
+            <img src="./Images/hackrx-logo.png" style="width:100px;height:90px;"></img>
+        </div>
+    </header>
+    <main>
+
+        <section class="pop">
+            <div class="form">
+
+                <h2>Registration Page</h2><br>
+                <input class="NP" name="user" type="text" placeholder="Full Name" required><br>
+                <input class="NP" name="pass" type="text" placeholder="Specialisation"><br>
+                <input class="NP" name="pass" type="text" placeholder="Email ID" required><br>
+
+                <input class="PH" name="phone" type="tel" placeholder="Phone Number" required><br>
+
+                <input class="NP" name="pass" type="text" placeholder="State"><br>
+                <button id=button type="submit">Submit</button>
+            </div>
+            <div class="image-upload">
+                <div class="image-view">
+                    <h3>Upload your Image</h3>
+                    <div class="drag-area">
+                        <div class="icon">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                        </div>
+                        <span id=header class="header"> Drag & Drop</span>
+                        <span class="header">or <button id=button1>browse</button></span>
+                        <span class="supp">Only accepts JPEG, JPG and PNG</span>
+                        <input type="file" hidden>
+                    </div>
+                    <div id=result>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+    </main>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
